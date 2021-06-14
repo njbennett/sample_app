@@ -9,6 +9,7 @@ gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
 gem 'bootsnap',   '1.7.2', require: false
 gem 'honeycomb-beeline'
+gem 'rspec-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
@@ -26,7 +27,6 @@ group :test do
   gem 'capybara',                 '3.35.3'
   gem 'selenium-webdriver',       '3.142.7'
   gem 'webdrivers',               '4.6.0'
-  gem 'rails-controller-testing', '1.0.5'
   gem 'minitest',                 '5.11.3'
   gem 'minitest-reporters',       '1.3.8'
   gem 'guard',                    '2.16.2'
